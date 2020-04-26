@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sobenkov/Avenue-Fasion-Project/issues"
   },
-  "homepage": "https://github.com/Sobenkov/Avenue-Fasion-Project#readme"
+  "homepage": "https://github.com/Sobenkov/Avenue-Fasion-Project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
