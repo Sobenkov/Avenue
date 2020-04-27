@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,GACG,cAAe","file":"../../style.css","sourcesContent":["h1{\r\n   font-size: 22px;\r\n}"]}
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,KACG,iCAAkC,CAClC,WAAY,CACZ,2BAA4B","file":"../../style.css","sourcesContent":["html{\r\n   background: url(../img/1-Home.png);\r\n   opacity: 40%;\r\n   background-repeat: no-repeat;\r\n}"]}
