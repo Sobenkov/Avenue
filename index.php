@@ -19,7 +19,17 @@
 
       <nav>
          <ul>
-            <li>Мужское</li>
+            <li>Мужское
+               <table>
+                  <tr><th>Повседневное</th><th>Официальное</th></tr>
+                  <tr><td>1</td><td>2</td></tr>
+                  <tr><td>1</td><td>2</td></tr>
+                  <tr><td>1</td><td>2</td></tr>
+                  <tr><td>1</td><td>2</td></tr>
+                  <tr><td>1</td></tr>
+                  <tr><td>1</td></tr>
+               </table>
+            </li>
             <li>Женское</li>
             <li>Фирменное</li>
             <li>Ближайшие магазины</li>

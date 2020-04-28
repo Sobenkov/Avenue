@@ -45,3 +45,13 @@ ul{
    } 
    
 }
+
+nav ul{
+   display: flex;
+   font-family: 'Montserrat', sans-serif;
+   justify-content: flex-end;
+   li{
+      padding: 20px 15px;
+      
+   }
+}
