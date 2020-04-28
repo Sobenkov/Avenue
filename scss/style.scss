@@ -2,3 +2,40 @@ html{
    background: url(../img/1-Home.png);
    background-repeat: no-repeat;
 }
+
+body{
+   padding: 0;
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13pt;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul{
+   list-style: none;
+}
+
+.container{
+
+}
+
+.header__auth{
+   background-color: #333;
+   font-family: 'Montserrat', sans-serif;
+   display: flex;
+   justify-content: flex-end;
+   padding: 13px 300px 13px 0;
+   margin: 0;
+   li{
+      padding-right: 20px;
+   }
+   a{
+      color: #858585;
+   }
+   :last-child{
+      padding-left: 20px;
+   }
+}
