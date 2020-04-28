@@ -27,15 +27,21 @@ ul{
    font-family: 'Montserrat', sans-serif;
    display: flex;
    justify-content: flex-end;
-   padding: 13px 300px 13px 0;
+   padding-right: 300px;
    margin: 0;
    li{
-      padding-right: 20px;
+      position: relative;
+      padding: 12px 15px;
+      :hover{
+         padding: 12px 10px;
+         background-color: #00c8c8;
+         color:#fff;
+         transition: all .2s;
+      }  
    }
    a{
       color: #858585;
-   }
-   :last-child{
-      padding-left: 20px;
-   }
+      padding: 0 10px;
+   } 
+   
 }
