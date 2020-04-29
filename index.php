@@ -18,6 +18,7 @@
       </ul>
 
       <nav>
+         <h1><a href="#">AVENUE FASHION</a></h1>
          <ul>
             <li> Мужское <br>&or;
                <table>
@@ -28,11 +29,18 @@
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
                   <tr><td><a href="#">Товар</a></td></tr>
                   <tr><td><a href="#">Товар</a></td></tr>
-                  
                </table>
             </li>
             <li>Женское <br>&or;
-               
+               <table>
+                  <tr><th>Повседневное</th><th>Официальное</th></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td></tr>
+               </table>
             </li>
             <li>Фирменное</li>
             <li>Ближайшие магазины <br>&or;</li>
