@@ -19,21 +19,24 @@
 
       <nav>
          <ul>
-            <li>Мужское
+            <li> Мужское <br>&or;
                <table>
                   <tr><th>Повседневное</th><th>Официальное</th></tr>
-                  <tr><td>1</td><td>2</td></tr>
-                  <tr><td>1</td><td>2</td></tr>
-                  <tr><td>1</td><td>2</td></tr>
-                  <tr><td>1</td><td>2</td></tr>
-                  <tr><td>1</td></tr>
-                  <tr><td>1</td></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#">Товар</a></td></tr>
+                  
                </table>
             </li>
-            <li>Женское</li>
+            <li>Женское <br>&or;
+               
+            </li>
             <li>Фирменное</li>
-            <li>Ближайшие магазины</li>
-            <li>Книга образов</li>
+            <li>Ближайшие магазины <br>&or;</li>
+            <li>Книга образов <br>&or;</li>
             <input type="search" placeholder="Найти...">
          </ul>
       </nav>

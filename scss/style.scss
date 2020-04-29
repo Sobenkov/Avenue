@@ -1,7 +1,7 @@
-html{
-   background: url(../img/1-Home.png);
-   background-repeat: no-repeat;
-}
+// html{
+//    background: url(../img/1-Home.png);
+//    background-repeat: no-repeat;
+// }
 
 body{
    padding: 0;
@@ -51,7 +51,38 @@ nav ul{
    font-family: 'Montserrat', sans-serif;
    justify-content: flex-end;
    li{
-      padding: 20px 15px;
+      padding: 20px;
+      cursor: pointer;
       
+   }
+   table{
+      font-family: 'Roboto', sans-serif;
+      margin-top: 10px;
+      position: absolute;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      font-size: 12pt;
+      padding: 25px;
+      display: none;
+      th{
+         padding: 10px 110px 20px 0;
+         color: #575153;
+      }
+      td{
+         padding: 4px;
+      }
+      a{
+         color: #858585;
+      }
+   }
+   input{
+      height: 35px;
+      width: 200px;
+      margin: 20px 20px 0 80px;
+   }
+   :hover {
+      color: #00c8c8;
+   }
+   :hover table{
+      display: block;
    }
 }
