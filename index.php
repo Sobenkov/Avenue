@@ -20,7 +20,7 @@
       <nav>
          <h1><a href="#">AVENUE FASHION</a></h1>
          <ul>
-            <li> Мужское <br>&#709;
+            <li> <b>Мужское</b>  <br>&#709;
                <table>
                   <tr><th>Повседневное</th><th>Официальное</th></tr>
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
@@ -33,10 +33,10 @@
                   <tr><td><a href="#"></a></td></tr>
                   <tr><td><a href="#"></a></td></tr>
                   <tr><td><a href="#"></a></td></tr>
-                  <td colspan="2" style="text-align:center; background-color: #333; padding: 60px 0; margin: 20px 0; color: #fff; text-transform: uppercase; font-size: 24pt;"><b>Осенняя распродажа!</b> <br> Скидка 50%</td>
+                  <td colspan="2" class="nav__sale"><b>Осенняя распродажа!</b> <br> Скидка 50%</td>
                </table>
             </li>
-            <li>Женское <br>&#709;
+            <li> <b>Женское</b> <br>&#709;
                <table>
                   <tr><th>Повседневное</th><th>Официальное</th></tr>
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
@@ -47,9 +47,9 @@
                   <tr><td><a href="#">Товар</a></td></tr>
                </table>
             </li>
-            <li>Фирменное</li>
-            <li>Ближайшие магазины <br>&#709;</li>
-            <li>Книга образов <br>&#709;</li>
+            <li><b>Фирменное</b></li>
+            <li><b>Ближайшие магазины</b><br>&#709;</li>
+            <li><b>Книга образов</b><br>&#709;</li>
             <input type="search" placeholder="Найти...">
          </ul>
       </nav>
@@ -57,7 +57,15 @@
    <!-- -------------------------/header----------------------- -->
    <!-- -------------------------main-------------------------- -->
    <main>
-
+      <div class="container">
+         <ul class="main__filter">
+            <li>Популярное</li>
+            <li>Новые поступления</li>
+            <li>Выгодная покупка</li>
+            <li>Специальные предложения</li>
+            <li>Скоро в продаже</li>
+         </ul> 
+      </div> 
    </main>
    <!-- -------------------------/main------------------------- -->
    <!-- -------------------------footer------------------------ -->
