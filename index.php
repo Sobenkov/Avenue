@@ -20,7 +20,7 @@
       <nav>
          <h1><a href="#">AVENUE FASHION</a></h1>
          <ul>
-            <li> Мужское <br>&or;
+            <li> Мужское <br>&#709;
                <table>
                   <tr><th>Повседневное</th><th>Официальное</th></tr>
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
@@ -29,9 +29,14 @@
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
                   <tr><td><a href="#">Товар</a></td></tr>
                   <tr><td><a href="#">Товар</a></td></tr>
+                  <tr><td><a href="#"></a></td></tr>
+                  <tr><td><a href="#"></a></td></tr>
+                  <tr><td><a href="#"></a></td></tr>
+                  <tr><td><a href="#"></a></td></tr>
+                  <td colspan="2" style="text-align:center; background-color: #333; padding: 60px 0; margin: 20px 0; color: #fff; text-transform: uppercase; font-size: 24pt;"><b>Осенняя распродажа!</b> <br> Скидка 50%</td>
                </table>
             </li>
-            <li>Женское <br>&or;
+            <li>Женское <br>&#709;
                <table>
                   <tr><th>Повседневное</th><th>Официальное</th></tr>
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
@@ -43,8 +48,8 @@
                </table>
             </li>
             <li>Фирменное</li>
-            <li>Ближайшие магазины <br>&or;</li>
-            <li>Книга образов <br>&or;</li>
+            <li>Ближайшие магазины <br>&#709;</li>
+            <li>Книга образов <br>&#709;</li>
             <input type="search" placeholder="Найти...">
          </ul>
       </nav>
