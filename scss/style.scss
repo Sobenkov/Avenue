@@ -121,22 +121,61 @@ nav{
 
 // ----------------------------------/nav------------------------------
 
-.main__filter{
-   display: flex;
-   font-family: 'Montserrat', sans-serif;
-   margin: 0;
-   border-top: 1px solid #929292;
-   padding: 50px 0;
-   margin-top: 60px;
-   li{
-      text-transform: uppercase;
-      color: #858585;
-      font-weight: bold;
-      padding-right: 60px;
-      cursor: pointer;
-      
+
+//-----------------------------------main------------------------------
+.main{
+   &__filter{
+      display: flex;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      border-top: 1px solid #929292;
+      padding: 55px 0;
+      margin-top: 65px;
+      li{
+         text-transform: uppercase;
+         color: #858585;
+         font-weight: bold;
+         padding-right: 60px;
+         cursor: pointer;
+         
+      }
+      :hover {
+         color: #00c8c8;
+      }
    }
-   :hover {
-      color: #00c8c8;
+   // /блок фильтров
+   &__content{
+      display: flex;
+   }
+   &__products{
+      width: 50%;
+   }
+   &__block{
+      display: flex;
+      width: 100%;
+      .main__product{
+         width: 100%;
+         padding: 10px;
+         img{
+            width: 100%;
+            height: 470px;
+            object-fit: cover;
+         }
+      }
+   }
+   &__product__big{
+      width: 100%;
+      padding: 10px;
+      img{
+         width: 99%;
+         height: 650px;
+         object-fit: cover;
+         object-position: 80% 1%;
+      }
+   }
+   &__description{
+      display: none;
    }
 }
+
+//-----------------------------------/main------------------------------
