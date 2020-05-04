@@ -72,6 +72,7 @@
                <div class="main__block">
 
                   <div class="main__product">
+                     <div class="main__price">1500 руб.</div>
                      <a href="#"><img src="img/photo2.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -80,6 +81,7 @@
                   </div> 
 
                   <div class="main__product">
+                     <div class="main__price">1500 руб.</div>
                      <a href="#"><img src="img/photo3.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -90,6 +92,7 @@
                </div> <!-- /main__block -->
 
                <div class="main__product__big">
+                  <div class="main__price">1500 руб.</div>
                   <a href="#"><img src="img/photo4.png" alt=""></a>
                   <div class="main__description">
                      <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -100,6 +103,7 @@
 
             <div class="main__products">
                <div class="main__product__big">
+                  <div class="main__price">1500 руб.</div>
                   <a href="#"><img src="img/photo2.png" alt=""></a>
                   <div class="main__description">
                      <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -109,6 +113,7 @@
 
                <div class="main__block">
                   <div class="main__product">
+                     <div class="main__price">1500 руб.</div>
                      <a href="#"><img src="img/photo5.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -117,6 +122,7 @@
                   </div> 
 
                   <div class="main__product">
+                     <div class="main__price">1500 руб.</div>
                      <a href="#"><img src="img/photo7.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -129,6 +135,24 @@
          </div> <!-- /main__content -->
       </div> <!-- /container -->
 
+   <!-- -------------------------/products-------------------------- -->
+
+   <!-- -------------------------lookbook-------------------------- -->
+      <div class="lookbook">
+
+         <div class="lookbook__block">
+            <div class="lookbook__description">
+               <h3>МУЖЧИНЫ</h3>
+               <h3>ВЫГЛЯДЯТ КНИГИ</h3>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod maiores eum totam aspernatur, quae ipsam cupiditate perferendis dignissimos adipisci doloribus reprehenderit nesciunt eius laborum recusandae unde libero? Aliquam, eius quos.</p>
+               <button>ЖМЯК</button>
+            </div>   
+          </div> <!-- /lookbook__block -->
+
+      </div>
+
+   <!-- -------------------------/lookbook-------------------------- -->
+   
    </main>
    <!-- -------------------------/main------------------------- -->
    <!-- -------------------------footer------------------------ -->

@@ -144,8 +144,12 @@ nav{
       }
    }
    // /блок фильтров
+   //-----------------------------------products--------------------------
    &__content{
       display: flex;
+      padding-bottom: 55px;
+      margin-bottom: 65px;
+      border-bottom: 1px solid #929292;
    }
    &__products{
       width: 50%;
@@ -155,7 +159,12 @@ nav{
       display: flex;
       width: 100%;
    }
-
+   &__price{
+      position: absolute;
+      padding: 10px;
+      font-size: 18pt;
+      color: #858585;
+   }
    &__product{
       position: relative;
       width: 90%;
@@ -183,7 +192,7 @@ nav{
       text-align: center;
       display: none;
       background-color: #fff;
-      padding: 20px;
+      padding: 40px 20px;
       margin-top: -5px;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
       z-index: 1;
@@ -204,5 +213,5 @@ nav{
    display: block;
    width: 95.5%; 
 }
-
+//-----------------------------------/products--------------------------
 //-----------------------------------/main------------------------------
