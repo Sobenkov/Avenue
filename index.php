@@ -70,28 +70,30 @@
             <div class="main__products">
 
                <div class="main__block">
+
                   <div class="main__product">
                      <a href="#"><img src="img/photo2.png" alt=""></a>
                      <div class="main__description">
-                     <h3>Womens burnt orange casual tee  £29.95</h3>
-                     <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <h3>Womens burnt orange casual tee  £29.95</h3>
+                        <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
                      </div>
                   </div> 
 
                   <div class="main__product">
                      <a href="#"><img src="img/photo3.png" alt=""></a>
                      <div class="main__description">
-                     <h3>Womens burnt orange casual tee  £29.95</h3>
-                     <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <h3>Womens burnt orange casual tee  £29.95</h3>
+                        <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
                      </div>
                   </div>
+
                </div> <!-- /main__block -->
 
                <div class="main__product__big">
                   <a href="#"><img src="img/photo4.png" alt=""></a>
                   <div class="main__description">
-                  <h3>Womens burnt orange casual tee  £29.95</h3>
-                  <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                     <h3>Womens burnt orange casual tee  £29.95</h3>
+                     <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
                   </div>
                </div>
             </div> <!-- /main__products -->
@@ -100,8 +102,8 @@
                <div class="main__product__big">
                   <a href="#"><img src="img/photo2.png" alt=""></a>
                   <div class="main__description">
-                  <h3>Womens burnt orange casual tee  £29.95</h3>
-                  <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                     <h3>Womens burnt orange casual tee  £29.95</h3>
+                     <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
                   </div>
                </div>
 
@@ -109,16 +111,16 @@
                   <div class="main__product">
                      <a href="#"><img src="img/photo5.png" alt=""></a>
                      <div class="main__description">
-                     <h3>Womens burnt orange casual tee  £29.95</h3>
-                     <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <h3>Womens burnt orange casual tee  £29.95</h3>
+                        <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
                      </div>
                   </div> 
 
                   <div class="main__product">
                      <a href="#"><img src="img/photo7.png" alt=""></a>
                      <div class="main__description">
-                     <h3>Womens burnt orange casual tee  £29.95</h3>
-                     <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <h3>Womens burnt orange casual tee  £29.95</h3>
+                        <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
                      </div>
                   </div>
                </div> <!-- /main__block -->
