@@ -183,7 +183,7 @@
             </div>   
           </div> <!-- /lookbook__block -->
 
-          <div class="main__lookbook__block">
+          <div class="main__lookbook__block" style="background: url(../img/REPLACE3.png) no-repeat;">
             <div class="main__lookbook__description">
                <h3>Гендерфлюидные</h3>
                <h4>Образы</h4>
@@ -199,7 +199,65 @@
    </main>
    <!-- -------------------------/main------------------------- -->
    <!-- -------------------------footer------------------------ -->
-   <footer>
+   <footer class="footer">
+      <div class="footer__container">
+         <div class="footer__info">
+
+            <ul class> <h4>Текст</h4>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+            </ul>
+
+            <ul class> <h4>Текст</h4>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+            </ul>
+
+            <ul class> <h4>Текст</h4>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+            </ul>
+
+            <ul class> <h4>Текст</h4>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+            </ul>
+
+            <ul class> <h4>Текст</h4>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+               <li><a href="#">Рандомный текст</a></li>
+            </ul>
+
+
+               
+            </div>
+         </div> 
+         <div class="footer__info">
+            <div class="footer__award">
+
+            </div>
+            <div class="footer__social">
+
+            </div>
+         </div>
+      </div>
+      
+      <div class="footer__tm">
+
+      </div>
 
    </footer>
    <!-- -------------------------/footer----------------------- -->

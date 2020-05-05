@@ -266,6 +266,7 @@ nav{
 
 .main__lookbook{
    display: flex;
+   margin-bottom: 120px;
    :last-child{
       margin: 0;
    }
@@ -297,5 +298,30 @@ nav{
       }
    } 
 }
+// ------------------------------/main__lookbook--------------------------
 
-//-----------------------------------/main------------------------------
+//-----------------------------------/main--------------------------------
+
+// ----------------------------------footer-------------------------------
+
+.footer{
+   background-color: #f8f8f8;
+   font-family: 'Montserrat', sans-serif;
+   h4{
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+      color: #575153;
+      margin-bottom: 20px;
+   }
+   &__container{
+      width: 60%;
+      margin: auto;
+   }
+   &__info{
+      display: flex;
+      ul{
+         width: 20%;
+      }
+   }
+}
