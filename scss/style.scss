@@ -314,14 +314,54 @@ nav{
       color: #575153;
       margin-bottom: 20px;
    }
+   a{
+     color: #575153; 
+   }
    &__container{
       width: 60%;
-      margin: auto;
+      margin: 0 auto;
+      padding: 60px 0; 
    }
    &__info{
       display: flex;
       ul{
          width: 20%;
       }
+      li{
+         padding: 5px 0;
+      }
+   }
+   &__about{
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 30pt;
+      margin: 20px 0;
+   }
+   &__award{
+      width: 100%;
+      background-color: #333;
+      text-align: center;
+      padding: 60px 0;
+      margin-right: 15px;
+   }
+   &__social{
+      width: 100%;
+      background-color: #00c8c8;
+      text-align: center;
+      padding: 60px 0;
+      margin-left: 15px;
+   }
+   &__tm{
+      display: flex;
+      justify-content: center;
+      p{
+         padding: 5px;
+      }
+      background-color: #333;
+      color: #727272;
    }
 }
+
+// ---------------------------------/footer-------------------------------

@@ -198,9 +198,11 @@
    
    </main>
    <!-- -------------------------/main------------------------- -->
+   
    <!-- -------------------------footer------------------------ -->
    <footer class="footer">
       <div class="footer__container">
+
          <div class="footer__info">
 
             <ul class> <h4>Текст</h4>
@@ -239,24 +241,25 @@
                <li><a href="#">Рандомный текст</a></li>
                <li><a href="#">Рандомный текст</a></li>
                <li><a href="#">Рандомный текст</a></li>
-            </ul>
+            </ul>  
 
+         </div> <!-- /footer__info  -->
 
-               
-            </div>
-         </div> 
-         <div class="footer__info">
+         <div class="footer__about">
             <div class="footer__award">
-
+               Some text
             </div>
+            
             <div class="footer__social">
-
+               @ @ @ @
             </div>
          </div>
-      </div>
+
+      </div> <!-- /footer__container -->
       
       <div class="footer__tm">
-
+         <p>© 2016 Avenue Fashion™</p>
+         <p>by Sobenkov</p>
       </div>
 
    </footer>
