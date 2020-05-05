@@ -23,6 +23,21 @@ ul{
    margin: 0 auto;
 }
 
+.btn{
+   border: 2px solid;
+   color: #454647;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   padding: 15px 30px;
+   cursor: pointer;
+}
+
+.btn:hover{
+      color:#fff;
+      background-color: #00c8c8;
+   }
+
 // --------------------------------header----------------------------
 
 .header__auth{
@@ -174,6 +189,18 @@ nav{
          height: 470px;
          object-fit: cover;
       }
+      .main__other{
+      width: 30%;
+      position: absolute; 
+      margin-left: 275px;
+      display: none;
+      img{
+         margin: 20px 20px 0 0;
+         width: 100%;
+         height: 100%;
+         box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      }
    }
 
    &__product__big{
@@ -186,6 +213,18 @@ nav{
          object-fit: cover;
          object-position: 80% 1%;
       }
+      .main__other{
+      width: 25%;
+      position: absolute; 
+      margin-left: 610px;
+      display: none;
+      img{
+         margin: 30px 20px 0 0;
+         width: 100%;
+         height: 100%;
+         box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      }
    }
    &__description{
       position: absolute;
@@ -197,12 +236,17 @@ nav{
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
       z-index: 1;
    }
+   
 }
 
 .main__product:hover{
    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .main__product:hover .main__description{
+   display: block;
+}
+
+.main__product:hover .main__other{
    display: block;
 }
 
@@ -213,5 +257,45 @@ nav{
    display: block;
    width: 95.5%; 
 }
+.main__product__big:hover .main__other{
+   display: block;
+}
 //-----------------------------------/products--------------------------
+
+// ------------------------------main__lookbook--------------------------
+
+.main__lookbook{
+   display: flex;
+   :last-child{
+      margin: 0;
+   }
+   &__block{
+      justify-content: flex-end;
+      text-align: right;
+      background-color: #f8f8f8;
+      margin-right: 40px;
+   }
+   &__description{
+      padding: 100px 40px 100px 300px;
+      h3{
+         color: #575153;
+         margin: 0;
+         font-size: 24pt; 
+         text-transform: uppercase;
+      }
+      h4{
+         color: #575153;
+         margin: 0;
+         font-size: 24pt;
+         text-transform: uppercase;
+         font-weight: lighter; 
+      }
+      p{
+        font-size: 12pt; 
+        color: #727272;
+        padding-bottom: 10px;
+      }
+   } 
+}
+
 //-----------------------------------/main------------------------------

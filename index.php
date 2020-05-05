@@ -73,6 +73,10 @@
 
                   <div class="main__product">
                      <div class="main__price">1500 руб.</div>
+                     <div class="main__other">
+                        <img src="img/photo2.png" alt="">
+                        <img src="img/photo3.png" alt="">
+                     </div>
                      <a href="#"><img src="img/photo2.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -82,6 +86,10 @@
 
                   <div class="main__product">
                      <div class="main__price">1500 руб.</div>
+                     <div class="main__other">
+                        <img src="img/photo2.png" alt="">
+                        <img src="img/photo3.png" alt="">
+                     </div>
                      <a href="#"><img src="img/photo3.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -93,6 +101,10 @@
 
                <div class="main__product__big">
                   <div class="main__price">1500 руб.</div>
+                  <div class="main__other">
+                        <img src="img/photo2.png" alt="">
+                        <img src="img/photo3.png" alt="">
+                     </div>
                   <a href="#"><img src="img/photo4.png" alt=""></a>
                   <div class="main__description">
                      <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -103,6 +115,10 @@
 
             <div class="main__products">
                <div class="main__product__big">
+                  <div class="main__other">
+                        <img src="img/photo2.png" alt="">
+                        <img src="img/photo3.png" alt="">
+                     </div>
                   <div class="main__price">1500 руб.</div>
                   <a href="#"><img src="img/photo2.png" alt=""></a>
                   <div class="main__description">
@@ -114,6 +130,10 @@
                <div class="main__block">
                   <div class="main__product">
                      <div class="main__price">1500 руб.</div>
+                     <div class="main__other">
+                        <img src="img/photo2.png" alt="">
+                        <img src="img/photo3.png" alt="">
+                     </div>
                      <a href="#"><img src="img/photo5.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -123,6 +143,10 @@
 
                   <div class="main__product">
                      <div class="main__price">1500 руб.</div>
+                     <div class="main__other">
+                        <img src="img/photo2.png" alt="">
+                        <img src="img/photo3.png" alt="">
+                     </div>
                      <a href="#"><img src="img/photo7.png" alt=""></a>
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
@@ -137,15 +161,34 @@
 
    <!-- -------------------------/products-------------------------- -->
 
-   <!-- -------------------------lookbook-------------------------- -->
-      <div class="lookbook">
+   <!-- ----------------------main__lookbook------------------------ -->
+      
+      <div class="main__lookbook">
 
-         <div class="lookbook__block">
-            <div class="lookbook__description">
-               <h3>МУЖЧИНЫ</h3>
-               <h3>ВЫГЛЯДЯТ КНИГИ</h3>
+         <div class="main__lookbook__block" style="background: url(../img/REPLACE1.png) no-repeat;">
+            <div class="main__lookbook__description">
+               <h3>Мужские</h3>
+               <h4>Образы</h4>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod maiores eum totam aspernatur, quae ipsam cupiditate perferendis dignissimos adipisci doloribus reprehenderit nesciunt eius laborum recusandae unde libero? Aliquam, eius quos.</p>
-               <button>ЖМЯК</button>
+               <button class="btn">Посмотреть</button>
+            </div>   
+          </div> <!-- /lookbook__block -->
+
+          <div class="main__lookbook__block" style="background: url(../img/REPLACE2.png) no-repeat;">
+            <div class="main__lookbook__description">
+               <h3>Женские</h3>
+               <h4>Образы</h4>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod maiores eum totam aspernatur, quae ipsam cupiditate perferendis dignissimos adipisci doloribus reprehenderit nesciunt eius laborum recusandae unde libero? Aliquam, eius quos.</p>
+               <button class="btn">Посмотреть</button>
+            </div>   
+          </div> <!-- /lookbook__block -->
+
+          <div class="main__lookbook__block">
+            <div class="main__lookbook__description">
+               <h3>Гендерфлюидные</h3>
+               <h4>Образы</h4>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod maiores eum totam aspernatur, quae ipsam cupiditate perferendis dignissimos adipisci doloribus reprehenderit nesciunt eius laborum recusandae unde libero? Aliquam, eius quos.</p>
+               <button class="btn">Посмотреть</button>
             </div>   
           </div> <!-- /lookbook__block -->
 
