@@ -6,6 +6,7 @@
    <title>Avenue Fasion</title>
    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css"> 
+   <link rel="stylesheet" href="css/fontello.css"> 
 </head>
 <!-- -------------------------body-------------------------- -->
 <body>
@@ -14,7 +15,7 @@
       <ul class="header__auth">
          <li><a href="#">Зарегистрироваться</a></li>
          <li><a href="#">Войти</a></li>
-         <li><a href="#">*КОРЗИНА*</a></li>
+         <li><a href="#"><i class="icon-basket">  Пусто</i></a></li>
       </ul>
 
       <nav>
@@ -81,6 +82,9 @@
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
                         <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <a href="#"><i class="icon-basket"></i></a>
+                        <a href="#"><i class="icon-heart-empty"></i></a>
+                        <a href="#"><i class="icon-resize-full"></i></a>
                      </div>
                   </div> 
 
@@ -94,6 +98,9 @@
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
                         <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <a href="#"><i class="icon-basket"></i></a>
+                        <a href="#"><i class="icon-heart-empty"></i></a>
+                        <a href="#"><i class="icon-resize-full"></i></a>
                      </div>
                   </div>
 
@@ -109,6 +116,9 @@
                   <div class="main__description">
                      <h3>Womens burnt orange casual tee  £29.95</h3>
                      <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                     <a href="#"><i class="icon-basket"></i></a>
+                     <a href="#"><i class="icon-heart-empty"></i></a>
+                     <a href="#"><i class="icon-resize-full"></i></a>
                   </div>
                </div>
             </div> <!-- /main__products -->
@@ -124,6 +134,9 @@
                   <div class="main__description">
                      <h3>Womens burnt orange casual tee  £29.95</h3>
                      <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                     <a href="#"><i class="icon-basket"></i></a>
+                     <a href="#"><i class="icon-heart-empty"></i></a>
+                     <a href="#"><i class="icon-resize-full"></i></a>
                   </div>
                </div>
 
@@ -138,6 +151,9 @@
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
                         <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <a href="#"><i class="icon-basket"></i></a>
+                        <a href="#"><i class="icon-heart-empty"></i></a>
+                        <a href="#"><i class="icon-resize-full"></i></a>
                      </div>
                   </div> 
 
@@ -151,6 +167,9 @@
                      <div class="main__description">
                         <h3>Womens burnt orange casual tee  £29.95</h3>
                         <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
+                        <a href="#"><i class="icon-basket"></i></a>
+                        <a href="#"><i class="icon-heart-empty"></i></a>
+                        <a href="#"><i class="icon-resize-full"></i></a>
                      </div>
                   </div>
                </div> <!-- /main__block -->
@@ -185,7 +204,7 @@
 
           <div class="main__lookbook__block" style="background: url(../img/REPLACE3.png) no-repeat;">
             <div class="main__lookbook__description">
-               <h3>Какие-то</h3>
+               <h3>Свои</h3>
                <h4>Образы</h4>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod maiores eum totam aspernatur, quae ipsam cupiditate perferendis dignissimos adipisci doloribus reprehenderit nesciunt eius laborum recusandae unde libero? Aliquam, eius quos.</p>
                <button class="btn">Посмотреть</button>
@@ -251,7 +270,10 @@
             </div>
             
             <div class="footer__social">
-               @ @ @ @
+               <a href="#"><i class="icon-vkontakte"></i></a>
+               <a href="#"><i class="icon-facebook"></i></a>
+               <a href="#"><i class="icon-instagram"></i></a>
+               <a href="#"><i class="icon-twitter"></i></a>
             </div>
          </div>
 

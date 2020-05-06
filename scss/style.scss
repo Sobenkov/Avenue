@@ -34,6 +34,7 @@ ul{
 }
 
 .btn:hover{
+      border: none;
       color:#fff;
       background-color: #00c8c8;
    }
@@ -45,17 +46,19 @@ ul{
    font-family: 'Montserrat', sans-serif;
    display: flex;
    justify-content: flex-end;
-   padding: 0 0 0 0;
+   padding: 0 16% 0 0;
    margin: 0;
    li{
       position: relative;
-      padding: 17px 15px;
-      :hover{
-         padding: 17px 10px;
-         background-color: #00c8c8;
-         color:#fff;
-         transition: all .2s;
-      }  
+      padding: 15px;
+   }
+   li:hover{
+      background-color: #00c8c8;
+      transition: all .2s;
+   }  
+   li:hover a{
+      color:#fff;
+      transition: all .2s;
    }
    a{
       color: #858585;
@@ -75,19 +78,19 @@ nav{
   background-color: #fff;
   padding: 25px 0 800px 0;
   color: #333;
+  display: flex;
+  justify-content: flex-end;
    h1 {
-      position: absolute;
       font-size: 24pt;
-      margin-left: 100px;
+      margin-right: 15%;
       a{
          color: #333;
-      }
+       }
       }
    ul {
       display: flex;
       font-family: 'Montserrat', sans-serif;
       justify-content: flex-end;
-      margin: 0;
       li{
          padding: 20px;
          cursor: pointer;
@@ -126,7 +129,7 @@ nav{
       input{
          height: 35px;
          width: 200px;
-         margin: 20px 20px 0 80px;
+         margin: 20px 40px 0 60px;
       }
       :hover {
          color: #00c8c8;
@@ -237,10 +240,19 @@ nav{
       margin-top: -5px;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
       z-index: 1;
-   }
-   
+      font-size: 12pt;
+      i{
+         border-radius: 100%;
+         background-color: #727272;
+         color: #fff;
+         padding: 5px 3px;
+         margin: 0 5px;
+      }
+      i:hover{
+         background-color: #00c8c8;
+      }
+   }   
 }
-
 .main__product:hover{
    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -268,7 +280,6 @@ nav{
 
 .main__lookbook{
    display: flex;
-   margin-bottom: 120px;
    :last-child{
       margin: 0;
    }
@@ -355,6 +366,9 @@ nav{
       text-align: center;
       padding: 60px 0;
       margin-left: 15px;
+      a{
+         color: #fff;
+      }
    }
    &__tm{
       display: flex;
