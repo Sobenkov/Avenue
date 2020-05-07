@@ -388,7 +388,7 @@ nav{
    .header__auth{
       padding: 0;
       justify-content: center;
-      font-size: 10pt;
+      font-size: 8pt;
       position: fixed;
       z-index: 2;
       width: 100%; 
@@ -478,6 +478,14 @@ nav{
             height: 100%;
          }
       }
+      &__product{
+         .main__other{
+         img{
+            width: 40%;
+         }
+         }
+      }
+
       &__block{
          padding-bottom: 65%;
       }
