@@ -15,13 +15,13 @@
       <ul class="header__auth">
          <li><a href="#">Зарегистрироваться</a></li>
          <li><a href="#">Войти</a></li>
-         <li><a href="#"><i class="icon-basket">  Пусто</i></a></li>
+         <li><a href="#"><i class="icon-basket"></i> Пусто</a></li>
       </ul>
 
       <nav>
-         <h1><a href="#">AVENUE FASHION</a></h1>
-         <ul>
-            <li> <b>Мужское</b>  <br>&#709;
+         <h1><a href="#">AVENUE FASHION</a><i class="icon-menu"></i></h1>
+         <ul> 
+            <li> <b>Мужское</b><br><i class="icon-down-open"></i>
                <table>
                   <tr><th>Повседневное</th><th>Официальное</th></tr>
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
@@ -37,7 +37,7 @@
                   <td colspan="2" class="nav__sale"><b>Осенняя распродажа!</b> <br> Скидка 50%</td>
                </table>
             </li>
-            <li> <b>Женское</b> <br>&#709;
+            <li> <b>Женское</b><br><i class="icon-down-open"></i>
                <table>
                   <tr><th>Повседневное</th><th>Официальное</th></tr>
                   <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
@@ -49,8 +49,8 @@
                </table>
             </li>
             <li><b>Фирменное</b></li>
-            <li><b>Ближайшие магазины</b><br>&#709;</li>
-            <li><b>Книга образов</b><br>&#709;</li>
+            <li><b>Ближайшие магазины</b><br><i class="icon-down-open"></i></li>
+            <li><b>Книга образов</b><br><i class="icon-down-open"></i></li>
             <input type="search" placeholder="Найти...">
          </ul>
       </nav>

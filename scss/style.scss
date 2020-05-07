@@ -1,8 +1,3 @@
-// html{
-//    background: url(../img/1-Home.png);
-//    background-repeat: no-repeat;
-// }
-
 body{
    padding: 0;
    margin: 0;
@@ -116,7 +111,7 @@ nav{
          a{
             color: #858585;
          }
-        .nav__sale{
+         .nav__sale{
             text-align:center; 
             background-color: #333; 
             padding: 60px 0; 
@@ -139,6 +134,9 @@ nav{
       }
    }
 }
+.icon-menu{
+   display: none;
+}
 
 // ----------------------------------/nav------------------------------
 
@@ -152,6 +150,7 @@ nav{
       border-top: 1px solid #929292;
       padding: 55px 0;
       margin-top: 65px;
+      width: 100%;
       li{
          text-transform: uppercase;
          color: #858585;
@@ -207,7 +206,6 @@ nav{
       }
       }
    }
-
    &__product__big{
       position: relative;
       width: 99%;
@@ -253,6 +251,7 @@ nav{
       }
    }   
 }
+
 .main__product:hover{
    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -386,6 +385,127 @@ nav{
 // ---------------------------------media---------------------------------
 
 @media (max-width: 767px){
+   .header__auth{
+      padding: 0;
+      justify-content: center;
+      font-size: 11pt;
+      position: fixed;
+      z-index: 1;
+      width: 100%; 
+      li{
+         padding: 10px;
+      }
+   }
+   .icon-menu{
+      display: block;
+      cursor: pointer;
+      font-size: 20pt;
+      text-align: center;
+      padding-bottom: 15px;
+   }
+   nav{
+      background: none;
+      padding: 15px 0 0 0;
+      h1{
+         background-color: #333;
+         color: #858585;
+         width: 100%;
+         padding: 25px 0 0 0;
+         margin: 0;
+         text-align: center;
+         a{
+          color: #858585;  
+         }
+      }
+      ul{
+         display: none;
+         width: 100%;
+         text-align: right;
+         background-color: #333;
+         color: #858585;
+         margin-top: 2px;
+         padding: 20px;
+         li{
+            padding: 10px 0;
+         }
+         table{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            width: 100%;
+            th{
+               padding: 5px 10px;
+            }
+            td{
+               padding: 5px 10px;
+               width: 100%;
+            }
+            .nav__sale{
+               padding: 10px 0;
+               font-size: 18pt;
+            }
+         }
+         input{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+         }
+      }
+   }
 
+   .main{
+      &__filter{
+         border: none;
+         display: block;
+         margin: 0;
+         padding: 0;
+         text-align: center;
+         width: 100%;
+         li{
+            padding: 10px 0;
+         }
+      }
+      &__content{
+         width: 100%;
+         display: block;
+         border: none;
+         margin: 0;
+      }
+      &__products{
+         width: 100%;
+         img{
+            height: 100%;
+         }
+      }
+      &__block{
+         padding-bottom: 55%;
+      }
+      &__description{
+         display: block;
+         position: relative;
+         padding: 10px 0;
+         width: 100%;
+      }
+   }
+   
+   .main__lookbook{
+      display: block;
+      &__block{
+         padding: 0;
+      }
+      &__description{
+         padding: 80px 40px 40% 40%;
+         z-index: 0;
+      }
+   }
+
+   
+
+   .footer{
+      display: none;
+   }
+      
+   
 }
 

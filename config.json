@@ -47,6 +47,18 @@
       "css": "resize-full",
       "code": 59394,
       "src": "fontawesome"
+    },
+    {
+      "uid": "559647a6f430b3aeadbecd67194451dd",
+      "css": "menu",
+      "code": 61641,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ccddff8e8670dcd130e3cb55fdfc2fd0",
+      "css": "down-open",
+      "code": 59395,
+      "src": "fontawesome"
     }
   ]
 }
