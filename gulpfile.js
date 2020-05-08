@@ -2,7 +2,7 @@ let gulp = require('gulp');
 let sass = require('gulp-sass');
 let autoprefixer = require('gulp-autoprefixer');
 let sourcemaps = require('gulp-sourcemaps');
-let browserSync = require('browser-sync').create();
+// let browserSync = require('browser-sync').create();
 
 
 function cssStyle(done) {
@@ -27,27 +27,27 @@ function cssStyle(done) {
 function watchStyle() {
 
    gulp.watch('./scss/**/*', cssStyle);
-   gulp.watch('./**/*.html', browserReload);
-   gulp.watch('./**/*.php', browserReload);
+   // gulp.watch('./**/*.html', browserReload);
+   // gulp.watch('./**/*.php', browserReload);
 }
 
-function Sync(done) {
+// function Sync(done) {
 
-   browserSync.init({
-      server: {
-         baseDir: './'
-      },
-      port: 3000
-   });
+//    browserSync.init({
+//       server: {
+//          baseDir: './'
+//       },
+//       port: 3000
+//    });
 
-   done();
-}
+//    done();
+// }
 
-function browserReload(done) {
+// function browserReload(done) {
 
-   browserSync.reload();
+//    browserSync.reload();
 
-   done();
-}
+//    done();
+// }
 
 gulp.task('default', gulp.parallel(Sync, watchStyle));

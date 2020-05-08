@@ -284,7 +284,7 @@ nav{
    }
    &__block{
       text-align: right;
-      background-color: #f8f8f8;
+      background-color: #eeeeee;
       background-position: center center;
       background-size: cover;
       margin-right: 40px;
@@ -507,7 +507,6 @@ nav{
          padding: 80px 40px 20% 20%;
       }
    }
-
    .footer{
       &__container{
          width: 100%;
@@ -533,8 +532,128 @@ nav{
          margin: 10px 0;
          font-size: 25pt;
       }
+      &__tm{
+         font-size: 10px;
+         padding: 10px 0;
+      }
    }
       
    
+}
+
+@media (max-width: 1024px){
+   .header__auth{
+      padding: 0;
+      justify-content: center;
+      width: 100%; 
+      li{
+         padding: 10px;
+      }
+   }
+   nav{
+      padding: 10px 0 180px 0;
+      margin: 0;
+      justify-content: center;
+      text-align: center;
+      h1{
+         display: none;
+      }
+      ul{
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         font-size: 10pt;
+         li{
+            margin: 0;
+         }
+         input{
+            padding: 0;
+            margin: 20px 5px;
+         }
+         table{
+            z-index: 1;
+            text-align: center;
+            th{
+               padding: 20px;
+            }
+         }
+      } 
+   }
+   
+   .main{
+      &__filter{
+        padding: 20px 0 10px 0;
+        margin: 20px 0 10px 0;
+        font-size: 8pt;
+        text-align: center;
+        li{
+           padding: 0 10px;
+        }
+      }
+      &__content{
+         width: 100%;
+         display: block;
+         border: none;
+         margin: 0;
+      }
+      &__products{
+         width: 100%;
+         img{
+            height: 100%;
+         }
+      }
+      &__product{
+         .main__other{
+            img{
+               width: 40%;
+            }
+         }
+      }
+      &__description{
+         padding: 25px 15px;
+         margin: 0;
+      }
+   }   
+   .main__lookbook{
+      &__block{
+         width: 100%;
+      }
+      &__description{
+         padding: 220px 20px 50% 30%;
+         p{
+            display: none;
+         }
+      }
+   }
+   .footer{
+      &__container{
+         width: 100%;
+         padding: 0;
+         margin: 0;
+         justify-content: center;
+      }
+      &__info{
+         display: none;
+      }
+      &__about{
+         display: block;
+         margin: 20px 0 0 0;
+         width: 100%;
+      }
+      &__award{
+         padding: 10px 0;
+         margin: 0;
+         font-size: 25pt;
+      }
+      &__social{
+         padding: 10px 0;
+         margin: 10px 0;
+         font-size: 25pt;
+      }
+      &__tm{
+         font-size: 10px;
+         padding: 10px 0;
+      }
+   }
 }
 
