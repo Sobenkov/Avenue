@@ -55,9 +55,11 @@
          </ul>
       </nav>
    </header>
+
+   <img class="header__background" src="img/photo1.png" alt="">
    <!-- -------------------------/header----------------------- -->
    <!-- -------------------------main-------------------------- -->
-   <main>
+   <main class="main">
       <div class="container">
          <ul class="main__filter">
             <li>Популярное</li>

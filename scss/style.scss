@@ -66,12 +66,7 @@ ul{
 // ----------------------------------nav------------------------------
 
 nav{
-  background: url(../img/photo1.png); 
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #fff;
-  padding: 25px 0 800px 0;
+  padding: 25px 0 0 0; 
   color: #333;
   display: flex;
   justify-content: flex-end;
@@ -138,11 +133,19 @@ nav{
    display: none;
 }
 
+.header__background{
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+   top: 50px;
+}
+
 // ----------------------------------/nav------------------------------
 
 
 //-----------------------------------main------------------------------
 .main{
+   padding-top: 38%;
    &__filter{
       display: flex;
       font-family: 'Montserrat', sans-serif;
@@ -404,8 +407,6 @@ nav{
       padding-bottom: 15px;
    }
    nav{
-      background: none;
-      padding: 15px 0 0 0;
       h1{
          background-color: #333;
          color: #858585;
@@ -418,15 +419,15 @@ nav{
          }
       }
       ul{
-         display: none;
          width: 100%;
          text-align: right;
          background-color: #333;
          color: #858585;
-         margin-top: 2px;
-         padding: 20px;
+         padding: 0;
+         margin: 0;
+         display: none;
          li{
-            padding: 10px 0;
+            padding: 0;
          }
          table{
             position: relative;
@@ -454,7 +455,13 @@ nav{
       }
    }
 
+   .header__background{
+      display: none;
+   }
+   
+
    .main{
+      padding: 0;
       &__filter{
          border: none;
          display: block;
@@ -538,10 +545,9 @@ nav{
       }
    }
       
-   
 }
 
-@media (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px){
    .header__auth{
       padding: 0;
       justify-content: center;
@@ -579,11 +585,16 @@ nav{
          }
       } 
    }
+
+   .header__background{
+      top: 40px;
+   }
    
    .main{
+      padding-top: 20%;
       &__filter{
         padding: 20px 0 10px 0;
-        margin: 20px 0 10px 0;
+        margin: 0 0 10px 0;
         font-size: 8pt;
         text-align: center;
         li{
