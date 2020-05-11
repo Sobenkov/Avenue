@@ -1,66 +1,11 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Avenue Fasion</title>
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css"> 
-   <link rel="stylesheet" href="css/fontello.css"> 
-</head>
-<!-- -------------------------body-------------------------- -->
-<body>
-   <!-- -------------------------header------------------------ -->
-   <header>
-      <ul class="header__auth">
-         <li><a href="#">Зарегистрироваться</a></li>
-         <li><a href="#">Войти</a></li>
-         <li><a href="#"><i class="icon-basket"></i> Пусто</a></li>
-      </ul>
-
-      <nav>
-         <h1><a href="#">AVENUE FASHION</a><i class="icon-menu"></i></h1>
-         <ul> 
-            <li> <b>Мужское</b><br><i class="icon-down-open"></i>
-               <table>
-                  <tr><th>Повседневное</th><th>Официальное</th></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#"></a></td></tr>
-                  <tr><td><a href="#"></a></td></tr>
-                  <tr><td><a href="#"></a></td></tr>
-                  <tr><td><a href="#"></a></td></tr>
-                  <td colspan="2" class="nav__sale"><b>Осенняя распродажа!</b> <br> Скидка 50%</td>
-               </table>
-            </li>
-            <li> <b>Женское</b><br><i class="icon-down-open"></i>
-               <table>
-                  <tr><th>Повседневное</th><th>Официальное</th></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td></tr>
-                  <tr><td><a href="#">Товар</a></td></tr>
-               </table>
-            </li>
-            <li><b>Фирменное</b></li>
-            <li><b>Ближайшие магазины</b><br><i class="icon-down-open"></i></li>
-            <li><b>Книга образов</b><br><i class="icon-down-open"></i></li>
-            <input type="search" placeholder="Найти...">
-         </ul>
-      </nav>
-   </header>
-
-   <img class="header__background" src="img/photo1.png" alt="">
+<?php 
+   include "header.php"
+?>
+    <img class="header__background" src="img/photo1.png" alt="">
    <!-- -------------------------/header----------------------- -->
    <!-- -------------------------main-------------------------- -->
    <main class="main">
-      <div class="container">
+      <div class="container__index">
          <ul class="main__filter">
             <li>Популярное</li>
             <li>Новые поступления</li>
@@ -221,73 +166,6 @@
    <!-- -------------------------/main------------------------- -->
    
    <!-- -------------------------footer------------------------ -->
-   <footer class="footer">
-      <div class="footer__container">
-
-         <div class="footer__info">
-
-            <ul class> <h4>Текст</h4>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-            </ul>
-
-            <ul class> <h4>Текст</h4>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-            </ul>
-
-            <ul class> <h4>Текст</h4>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-            </ul>
-
-            <ul class> <h4>Текст</h4>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-            </ul>
-
-            <ul class> <h4>Текст</h4>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-               <li><a href="#">Рандомный текст</a></li>
-            </ul>  
-
-         </div> <!-- /footer__info  -->
-
-         <div class="footer__about">
-            <div class="footer__award">
-               Some text
-            </div>
-            
-            <div class="footer__social">
-               <a href="#"><i class="icon-vkontakte"></i></a>
-               <a href="#"><i class="icon-facebook"></i></a>
-               <a href="#"><i class="icon-instagram"></i></a>
-               <a href="#"><i class="icon-twitter"></i></a>
-            </div>
-         </div>
-
-      </div> <!-- /footer__container -->
-      
-      <div class="footer__tm">
-         <p>© 2016 Avenue Fashion™</p>
-         <p>by Sobenkov</p>
-      </div>
-
-   </footer>
-   <!-- -------------------------/footer----------------------- -->
-</body>
-<!-- -------------------------/body-------------------------- -->
-</html>
+<?php 
+   include "footer.php"
+?>   

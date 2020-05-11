@@ -13,8 +13,13 @@ ul{
    list-style: none;
 }
 
-.container{
+.container__index{
    width: 90%;
+   margin: 0 auto;
+}
+
+.container{
+   width: 60%;
    margin: 0 auto;
 }
 
@@ -70,6 +75,9 @@ nav{
   color: #333;
   display: flex;
   justify-content: flex-end;
+   a{
+      color: #333;
+   }
    h1 {
       font-size: 24pt;
       margin-right: 15%;
@@ -385,6 +393,11 @@ nav{
 
 // ---------------------------------/footer-------------------------------
 
+// ---------------------------------brand---------------------------------
+.brand__header{
+   width: 100%;
+}
+//---------------------------------/brand---------------------------------
 // ---------------------------------media---------------------------------
 
 @media (max-width: 767px){
