@@ -397,6 +397,31 @@ nav{
 .brand__header{
    width: 100%;
 }
+.brand{
+   width: 100%;
+   display: flex;
+   &__block{
+      display: block;
+      width: 50%;
+      margin: 40px 15px 140px 15px;
+      img{
+         margin-top: 20px;
+         width: 100%;
+      }
+   }   
+   &__text{
+      margin-bottom: 40px;
+      h3{
+         color: #575153;
+      }
+      h4{
+         color: #575153;
+      }
+      p{
+         color: #727272;
+      }
+   }
+}
 //---------------------------------/brand---------------------------------
 // ---------------------------------media---------------------------------
 
@@ -560,7 +585,10 @@ nav{
       
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1366px){
+   .btn{
+      padding: 10px;
+   }
    .header__auth{
       padding: 0;
       justify-content: center;
@@ -570,24 +598,26 @@ nav{
       }
    }
    nav{
-      padding: 10px 0 180px 0;
       margin: 0;
       justify-content: center;
       text-align: center;
       h1{
-         display: none;
+         margin: 20px 0 0 20px;
+         font-size: 10pt;
       }
       ul{
          width: 100%;
          margin: 0;
          padding: 0;
-         font-size: 10pt;
+         font-size: 8pt;
          li{
             margin: 0;
+            padding: 30px 10px;
          }
          input{
             padding: 0;
-            margin: 20px 5px;
+            margin: 20px 10px;
+            width: 20%;
          }
          table{
             z-index: 1;
@@ -604,6 +634,7 @@ nav{
    }
    
    .main{
+      margin-top: 17%;
       padding-top: 20%;
       &__filter{
         padding: 20px 0 10px 0;
@@ -643,6 +674,7 @@ nav{
          width: 100%;
       }
       &__description{
+         text-align: right;
          padding: 220px 20px 50% 30%;
          p{
             display: none;
