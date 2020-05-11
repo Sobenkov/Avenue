@@ -34,7 +34,6 @@ ul{
 }
 
 .btn:hover{
-      border: none;
       color:#fff;
       background-color: #00c8c8;
    }
@@ -423,6 +422,45 @@ nav{
    }
 }
 //---------------------------------/brand---------------------------------
+
+// ---------------------------------local---------------------------------
+
+
+// --------------------------------/local---------------------------------
+   .local{
+      margin: 40px 0 80px 0;
+      &__top{
+         display: flex;
+         &_block{
+            padding: 0 10px;
+            h3{
+               color: #575153;
+            }
+            h4{
+               color: #575153;
+            }
+            p{
+               color: #727272;
+            }
+         }
+      }
+
+      &__bottom{
+         display: flex;
+         width: 100%;
+         margin: 40px 0;
+         &_map{
+            width: 100%;
+            position:relative;
+            overflow:hidden;
+         }
+         &_description{
+            width: 40%;
+            padding: 20px;
+            background-color: #eeeeee;
+         }
+      }
+   }
 // ---------------------------------media---------------------------------
 
 @media (max-width: 767px){

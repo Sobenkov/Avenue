@@ -59,7 +59,7 @@
       </div> <!-- /footer__container -->
       
       <div class="footer__tm">
-         <p>© 2016 Avenue Fashion™</p>
+         <p>© 2020 Avenue Fashion™</p>
          <p>by Sobenkov</p>
       </div>
 

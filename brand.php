@@ -1,5 +1,5 @@
 <?php
-include "header.php"
+   include "header.php"
 ?>
 <img class="brand__header" src="img/bg_brand.png" alt="">
 <!-- -----------------------------main----------------------------- -->
@@ -33,5 +33,5 @@ include "header.php"
 
 <!-- ----------------------------/main----------------------------- -->
 <?php
-include "footer.php"
+   include "footer.php"
 ?>
