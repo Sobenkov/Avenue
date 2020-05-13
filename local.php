@@ -1,5 +1,5 @@
 <?php
-   include "header.php"
+include "header.php"
 ?>
 <img class="brand__header" src="img/bg_local.png" alt="">
 <!-- -----------------------------main----------------------------- -->
@@ -37,7 +37,19 @@
       <div class="local__bottom_description">
          <h3>Текст</h3>
          <h4>Текст текст</h4>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, consequatur temporibus animi doloribus quibusdam explicabo commodi accusamus cumque aperiam saepe quo quisquam voluptas labore, similique, tenetur debitis placeat quas et itaque nostrum sapiente est. Exercitationem voluptatibus facere officiis recusandae dicta!</p>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, consequatur temporibus animi doloribus quibusdam explicabo commodi accusamus.</p>
+         <br>
+         <p>Адрес</p>
+         <p>8-800-555-35-35</p>
+         <p>Сайт</p>
+         <p>Sobenkov95@yandex.ru</p>
+         <p>Время работы</p>
+         <div class="local__bottom_social">
+            <a href="#"><i class="icon-vkontakte"></i></a>
+            <a href="#"><i class="icon-facebook"></i></a>
+            <a href="#"><i class="icon-instagram"></i></a>
+            <a href="#"><i class="icon-twitter"></i></a>
+         </div>
       </div>
    </div>
 
@@ -45,5 +57,5 @@
 
 <!-- ----------------------------/main----------------------------- -->
 <?php
-   include "footer.php"
+include "footer.php"
 ?>

@@ -455,10 +455,24 @@ nav{
             overflow:hidden;
          }
          &_description{
-            width: 40%;
+            width: 50%;
             padding: 20px;
             background-color: #eeeeee;
-         }
+            font-size: 12pt;
+         }   
+         &_social{
+            padding-top: 30px;
+            a{
+               color: #fff;
+            }
+            i{
+               border-radius: 100%;
+               background-color: #727272;
+               color: #fff;
+               padding: 5px 3px;
+               margin: 0 5px;
+            }
+         }   
       }
    }
 // ---------------------------------media---------------------------------
@@ -618,6 +632,25 @@ nav{
       &__tm{
          font-size: 10px;
          padding: 10px 0;
+      }
+   }
+   
+   .local{
+      &__top{
+         display: block;
+         text-align: center;
+         :first-child{
+            padding: 0;
+         }
+         &_block{
+            padding-top: 40px;
+         }
+      }
+      &__bottom{
+         display: block;
+         &_description{
+            width: 100%;
+         }
       }
    }
       
