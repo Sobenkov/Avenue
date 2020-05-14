@@ -98,7 +98,49 @@
             </li>
             <li><a href="/brand.php"><b>О нас</b></a></li>
             <li><a href="/local.php"><b>Ближайшие магазины</b></a></li>
-            <li><b>Книга образов</b><br><i class="icon-down-open"></i></li>
+            <li> <a href="/lookbook.php"><b>Книга образов</b><br><i class="icon-down-open"></i></a>
+               <table>
+                  <tr>
+                     <th>Повседневное</th>
+                     <th>Официальное</th>
+                  </tr>
+                  <tr>
+                     <td><a href="#">Товар</a></td>
+                     <td><a href="#">Товар</a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#">Товар</a></td>
+                     <td><a href="#">Товар</a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#">Товар</a></td>
+                     <td><a href="#">Товар</a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#">Товар</a></td>
+                     <td><a href="#">Товар</a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#">Товар</a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#">Товар</a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="#"></a></td>
+                  </tr>
+                  <td colspan="2" class="nav__sale"><b>Осенняя распродажа!</b> <br> Скидка 50%</td>
+               </table>
+            </li>
             <input type="search" placeholder="&#128270; Найти...">
          </ul>
       </nav>

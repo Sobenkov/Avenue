@@ -152,14 +152,13 @@ nav{
 
 //-----------------------------------main------------------------------
 .main{
-   padding-top: 38%;
    &__filter{
       display: flex;
       font-family: 'Montserrat', sans-serif;
       margin: 0;
       border-top: 1px solid #929292;
       padding: 55px 0;
-      margin-top: 65px;
+      margin-top: 45%;
       width: 100%;
       li{
          text-transform: uppercase;
@@ -171,6 +170,25 @@ nav{
       }
       :hover {
          color: #00c8c8;
+      }
+      &_lookbook{
+         display: flex;
+         font-family: 'Montserrat', sans-serif;
+         margin: 0;
+         border-top: 1px solid #929292;
+         padding: 55px 0;
+         margin-top: 65px;
+         width: 100%;
+         li{
+            text-transform: uppercase;
+            color: #858585;
+            font-weight: bold;
+            padding-right: 60px;
+            cursor: pointer; 
+         }
+         :hover {
+            color: #00c8c8;
+         }
       }
    }
    // /блок фильтров
@@ -187,7 +205,7 @@ nav{
    }
    &__block{
       display: flex;
-      width: 100%;
+      margin-right: -10px;
    }
    &__price{
       position: absolute;
@@ -197,7 +215,7 @@ nav{
    }
    &__product{
       position: relative;
-      width: 90%;
+      width: 100%;
       margin: 10px 10px 10px 0;
       img{
          width: 100%;
@@ -205,20 +223,20 @@ nav{
          object-fit: cover;
       }
       .main__other{
-      position: absolute; 
-      text-align: right;
-      display: none;
-      img{
-         margin: 20px 20px 0 0;
-         width: 20%;
-         height: 100%;
-         box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      }
+         position: absolute; 
+         text-align: right;
+         display: none;
+         img{
+            margin: 20px 20px 0 0;
+            width: 20%;
+            height: 100%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+         }
       }
    }
    &__product__big{
       position: relative;
-      width: 99%;
+      width: 100%;
       margin: 10px 10px 10px 0;
       img{
          width: 100%;
@@ -227,16 +245,16 @@ nav{
          object-position: 80% 1%;
       }
       .main__other{
-      width: 100%;
-      position: absolute; 
-      text-align: right;
-      display: none;
-      img{
-         margin: 30px 20px 0 0;
-         width: 20%;
-         height: 100%;
-         box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      }
+         width: 100%;
+         position: absolute; 
+         text-align: right;
+         display: none;
+         img{
+            margin: 30px 20px 0 0;
+            width: 20%;
+            height: 100%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+         }
       }
    }
    &__description{
@@ -244,7 +262,7 @@ nav{
       text-align: center;
       display: none;
       background-color: #fff;
-      padding: 25px 20px;
+      padding: 25px 19px;
       margin-top: -5px;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
       z-index: 1;
@@ -562,6 +580,17 @@ nav{
          li{
             padding: 10px 0;
          }
+         &_lookbook{
+            border: none;
+            display: block;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            li{
+               padding: 10px 0;
+            } 
+         }
       }
       &__content{
          width: 100%;
@@ -578,19 +607,15 @@ nav{
       &__product{
          .main__other{
          img{
-            width: 40%;
+            width: 20%;
          }
          }
       }
 
       &__block{
-         padding-bottom: 65%;
       }
       &__description{
-         display: block;
-         position: relative;
-         padding: 10px 0;
-         width: 100%;
+         padding: 10px 7px;
       }
    }
 
@@ -705,16 +730,23 @@ nav{
    }
    
    .main{
-      margin-top: 17%;
-      padding-top: 20%;
       &__filter{
         padding: 20px 0 10px 0;
-        margin: 0 0 10px 0;
+        margin: 42% 0 10px 0;
         font-size: 8pt;
         text-align: center;
         li{
            padding: 0 10px;
         }
+        &_lookbook{
+            padding: 20px 0 10px 0;
+            margin: 0 0 10px 0;
+            font-size: 8pt;
+            text-align: center;
+            li{
+               padding: 0 10px;
+            }
+         }
       }
       &__content{
          width: 100%;
