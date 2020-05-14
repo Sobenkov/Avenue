@@ -8,6 +8,7 @@
    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/fontello.css">
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 <!-- -------------------------body-------------------------- -->
 
@@ -21,7 +22,7 @@
       </ul>
 
       <nav>
-         <h1><a href="/index.php">AVENUE FASHION</a><i class="icon-menu"></i></h1>
+         <h1><a href="/index.php"> <b>AVENUE</b> FASHION</a><i class="icon-menu"></i></h1>
          <ul>
             <li> <b>Мужское</b><br><i class="icon-down-open"></i>
                <table>
@@ -141,7 +142,7 @@
                   <td colspan="2" class="nav__sale"><b>Осенняя распродажа!</b> <br> Скидка 50%</td>
                </table>
             </li>
-            <input type="search" placeholder="&#128270; Найти...">
+            <input type="search" placeholder=" Найти...">
          </ul>
       </nav>
       </head>
