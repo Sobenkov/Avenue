@@ -31,7 +31,7 @@
                         <p>Classic casual t-shirt for women on the move.  100% cotton.</p>
                         <a href="#"><i class="icon-basket"></i></a>
                         <a href="#"><i class="icon-heart-empty"></i></a>
-                        <a href="#"><i class="icon-resize-full"></i></a>
+                        <a href="/product.php"><i class="icon-resize-full"></i></a>
                      </div>
                   </div> 
 
